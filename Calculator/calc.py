@@ -14,7 +14,7 @@ def divide(x, y):
 
 def calculator():
     print("=== Simple Calculator ===")
-    print("Operations: +  -  *  /")
+    print("Operations: + ,- ,* ,/")
     
     while True:
         choice = input("Enter operation (+, -, *, /) or 'q' to quit: ")
@@ -44,3 +44,4 @@ def calculator():
 
 if __name__ == "__main__":
     calculator()
+
